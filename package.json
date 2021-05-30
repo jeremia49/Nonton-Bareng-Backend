@@ -1,0 +1,21 @@
+{
+  "name": "nobar-backend",
+  "version": "1.0.0",
+  "description": "Nobar's backend system",
+  "main": "server.js",
+  "scripts": {
+	  "start" : "node server.js",  
+    "start-dev": "node_modules/.bin/nodemon server.js",
+    "test": "test"
+  },
+  "author": "jeremia49",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
